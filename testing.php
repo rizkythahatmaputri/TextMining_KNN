@@ -69,12 +69,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_FILES['file'])) {
     </style>
 </head>
 <body>
-    <header class="text-center py-2">
+    <header class="text-center py-4">
         <h1 class="text-white">Document Classification</h1>
     </header>
     
     <div class="container">     
-        <h1>Preprocessing Text</h1>
+        
         <form action="testing.php" method="post" enctype="multipart/form-data"> <!-- Form action updated -->
             <label for="file">Masukkan Dokumen:</label><br>
             <input type="file" id="file" name="file"><br><br>
