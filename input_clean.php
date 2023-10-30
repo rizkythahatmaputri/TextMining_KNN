@@ -74,8 +74,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_FILES['file'])) {
 <body>
 <body>
 </body>
-    <header class="text-center py-2">
-        <h1 class="text-white">"Document Classification"</h1>
+    <header class="text-center py-4">
+        <!--<h1 class="text-white">"Document Classification"</h1>-->
     </header>
     
     <div class="container">     
@@ -95,7 +95,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_FILES['file'])) {
         echo "<strong>Teks Awal:</strong> $text<br><br><br>";
 
 
-echo "<table class='table table-bordered'>";
+echo "<table class='table-bordered'>";
     // Teks Setelah Dibersihkan
     echo "<tr><td><strong>Cleansing</strong></td><td>$clean_text</td></tr>";
     // Teks dalam Huruf Kecil
@@ -118,6 +118,9 @@ echo "<table class='table table-bordered'>";
     }
     ?>       
     </div>
+    <div class="text-center mt-3">
+            <a href="index.html" class="btn btn-secondary">Kembali ke Halaman Awal</a>
+        </div>
 
     <!-- Menambahkan tautan ke Bootstrap JavaScript dan jQuery (diperlukan oleh Bootstrap) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

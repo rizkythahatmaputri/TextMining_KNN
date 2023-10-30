@@ -127,6 +127,9 @@ if (isset($_GET["category"])) {
     echo "<br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Kategori: $category</p>";
 }
 ?>
+  <div class="text-center mt-3">
+            <a href="index.html" class="btn btn-secondary">Kembali ke Halaman Awal</a>
+        </div>
 
     <!-- Menambahkan tautan ke Bootstrap JavaScript dan jQuery (diperlukan oleh Bootstrap) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
